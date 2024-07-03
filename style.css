@@ -1,0 +1,54 @@
+body {
+  background-image: url(IMG-20240702-WA0002.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+#framein {
+  height: 150vh;
+  width: 70vw;
+  background-color: rgba(21, 27, 78, 1);
+  border: ridge;
+  border-width: 20px;
+  border-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+#pad {
+  height: 90%;
+  width: 97%;
+  background-color: rgba(49, 55, 126, 1);
+  left: 5%;
+  bottom: 0%;
+}
+
+h1 {
+  top: 10px;
+  font-family: "Dancing Script", "Ga Maamli", cursive;
+  font-size: 70px;
+  text-align: center;
+  
+  
+  background: red;
+  background: -webkit-linear-gradient(left, orange, yellow, green, cyan, blue, violet);
+  background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+  background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+  background: linear-gradient(to right, orange, yellow, green, cyan, blue, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+p {
+
+  font-family: "Teko", "Ga Maamli", serif;
+  font-size: 35px;
+  text-align: center;
+  padding: 10px;
+}
