@@ -7,9 +7,9 @@ body {
 }
 
 #framein {
-  height: 150vh;
+  height: 120vh;
   width: 70vw;
-  background-color: rgba(21, 27, 78, 1);
+  background-color: #1F8AC0;
   border: ridge;
   border-width: 20px;
   border-color: black;
@@ -22,8 +22,8 @@ body {
 
 #pad {
   height: 90%;
-  width: 97%;
-  background-color: rgba(49, 55, 126, 1);
+  width: 100%;
+  background-color: #104C91;
   left: 5%;
   bottom: 0%;
 }
@@ -36,10 +36,9 @@ h1 {
   
   
   background: red;
-  background: -webkit-linear-gradient(left, orange, yellow, green, cyan, blue, violet);
-  background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
-  background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
-  background: linear-gradient(to right, orange, yellow, green, cyan, blue, violet);
+  background: -webkit-linear-gradient(left, cyan, blue, violet);
+  
+  
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
