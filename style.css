@@ -27,7 +27,7 @@ body {
   left: 5%;
   bottom: 0%;
   border-top: groove;
-  border-width: 6px;
+  border-width: 10px;
   border-color: black;
 }
 
@@ -36,18 +36,22 @@ h1 {
   font-family: "Dancing Script", "Ga Maamli", cursive;
   font-size: 70px;
   text-align: center;
+
+
   background: red;
   background: -webkit-linear-gradient(left, cyan, blue, violet);
-  
-  
+
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
 }
 
 p {
 
   font-family: "Teko", "Ga Maamli", serif;
-  font-size: 35px;
+  font-size: 30px;
   text-align: center;
   padding: 10px;
+
 }
