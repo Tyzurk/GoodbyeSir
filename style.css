@@ -26,6 +26,9 @@ body {
   background-color: #104C91;
   left: 5%;
   bottom: 0%;
+  border-top: groove;
+  border-width: 6px;
+  border-color: black;
 }
 
 h1 {
@@ -33,15 +36,12 @@ h1 {
   font-family: "Dancing Script", "Ga Maamli", cursive;
   font-size: 70px;
   text-align: center;
-  
-  
   background: red;
   background: -webkit-linear-gradient(left, cyan, blue, violet);
   
   
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
 }
 
 p {
